@@ -22,7 +22,7 @@ const Navbar = () => {
           <Typography variant="h6" component="div" sx={{ flexGrow: 3 }}>
             CloudFare-Employee
           </Typography>
-          <Link to={'/home'}>
+          <Link to={'/'}>
            <Button style={{color:'white'}}>Home</Button>
           </Link>
           <Link to={'/form'}>
