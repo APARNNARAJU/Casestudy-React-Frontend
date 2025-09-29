@@ -14,7 +14,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path='/home' element={<Home/>}></Route>
+        <Route path='/' element={<Home/>}></Route>
         <Route path='/form' element={<Empform eform={{id:1,name:"Abc",email:"abc@gmail.com"}} />}></Route>
       </Routes>
     </>
